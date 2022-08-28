@@ -56,13 +56,18 @@ public class LossOfMuscle {
         }
 
         for(int i = 0; i < length; i++){
-            if(!visit[i]){
+            //if(!visit[i]){
+            //    visit[i] = true;
+            //    sum += array[i];
+            //    if(sum >= 0){
+            //        count += DFS(visit, array, depth + 1, sum);
+            //    }
+            //    sum -= array[i];
+            //    visit[i] = false;
+            //}
+            if(!visit[i] && sum + array[i] >= 0){
                 visit[i] = true;
-                sum += array[i];
-                if(sum >= 0){
-                    count += DFS(visit, array, depth + 1, sum);
-                }
-                sum -= array[i];
+                count += DFS(visit, array, depth + 1, sum + array[i]);
                 visit[i] = false;
             }
         }
