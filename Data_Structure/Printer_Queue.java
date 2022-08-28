@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
-
+//1966
 public class Printer_Queue {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     public static void main(String[] args)throws IOException, NumberFormatException  {

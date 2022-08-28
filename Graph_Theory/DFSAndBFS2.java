@@ -8,7 +8,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-
+//1260
 //DFSAndBFS1은 map을 배열을 이용했고
 //DFSAndBFS2는 map을 linkedlist를 이용했다
 public class DFSAndBFS2 {

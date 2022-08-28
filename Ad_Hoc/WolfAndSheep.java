@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
-
+//16956
 public class WolfAndSheep {
     public static void main(String[] ags) throws IOException{
         int r, c;
