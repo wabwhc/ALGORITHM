@@ -1,3 +1,3 @@
-study 백준 algorithm
-https://www.acmicpc.net/
-java
+* study 백준 algorithm
+* https://www.acmicpc.net/
+* java
