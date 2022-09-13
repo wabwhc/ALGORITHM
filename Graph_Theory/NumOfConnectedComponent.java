@@ -32,6 +32,7 @@ public class NumOfConnectedComponent {
         }
         
         for(int i = 0; i < N; i++){
+            //방문하지 않은 곳이 있으면 count에 1더하고 DFS실행함
             if(!visit[i]){
                 count += 1;
                 visit = DFS(visit, map, i);
