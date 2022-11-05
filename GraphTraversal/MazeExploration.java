@@ -1,4 +1,4 @@
-package Graph_Traversal;
+package GraphTraversal;
 
 import java.io.BufferedReader;
 import java.io.IOException;

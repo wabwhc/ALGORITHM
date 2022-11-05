@@ -1,4 +1,4 @@
-package Dynamic_Programming;
+package DynamicProgramming;
 
 //DP란 무엇인가
 //공부 연습
