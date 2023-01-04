@@ -7,6 +7,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.StringTokenizer;
 
+//2565
 public class ElectricCord {
     static int NumOfCord;
     static int[][] cord;
