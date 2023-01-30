@@ -46,15 +46,21 @@ public class Eighty_Six {
                     if(j % 2 == y){
                         if(map[i][j] == 1){
                             result = false;
+                            break;
                         }
                     }
                 }else{
                     if(j % 2 != y){
                         if(map[i][j] == 1){
                             result = false;
+                            break;
                         }
                     }
                 }
+            }
+            
+            if(!result){
+                break;
             }
         }
 
