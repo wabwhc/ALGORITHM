@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-//10815
+//10815 
 public class NumberCard {
     static int[] hold;
     static int N;
